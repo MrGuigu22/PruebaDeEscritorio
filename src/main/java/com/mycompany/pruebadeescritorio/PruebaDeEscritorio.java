@@ -11,14 +11,13 @@ package com.mycompany.pruebadeescritorio;
 public class PruebaDeEscritorio {
 
     public static void main(String[] args) {
-        int horasTrabajadas = 48;
-        int valorHora = 5000;
-        double porcentajeRetencion = 0.125;
-        int salarioBruto = horasTrabajadas * valorHora;
-        double retencionFuente = salarioBruto * porcentajeRetencion;
-        double salarioNeto = salarioBruto - retencionFuente;
-        System.out.println("el salario bruto del trabajador es: " + salarioBruto);
-        System.out.println("el salario neto del trabajador es: " + salarioNeto);
-        System.out.println("la retencion en la fuente del trabajador es: "+retencionFuente);
+        
+        float suma = 0;
+        float x = 20;
+        suma = (suma + x );
+        float y = 40;
+        x = (float)(x + Math.pow(y,2));
+        suma = (suma + (x/y)) ;
+        System.out.println("el valor de la suma es: " + suma);
     }
 }
